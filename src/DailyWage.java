@@ -7,10 +7,10 @@ public class DailyWage extends PresentAbsent implements IWageCalculation{
         if(presentOrAbsent()==1)
         {
             dailyWage= wage*hours;
-            System.out.println("Employee is present \n  His daily wage is "+dailyWage);
+            System.out.println("Employee is present \n His daily wage is "+dailyWage);
         }
         else {
-            System.out.println("Employee is absent  \n  His daily wage is 0");
+            System.out.println("Employee is absent  \n His daily wage is 0");
             dailyWage=0;
         }
 
